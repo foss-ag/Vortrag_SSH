@@ -1,0 +1,3 @@
+[submodule "Latex_Template"]
+	path = Latex_Template
+	url = gogs@git.foss-ag.de:FOSS_AG/Latex_Template.git
