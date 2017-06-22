@@ -1,10 +1,16 @@
 \begin{frame}
 \frametitle{SSHFS}
 \begin{itemize}
+\item \textbf{sshfs server:ordner1 ordner2}
+\pause
 \item einbinden eines Ordners als Dateisystem über eine ssh Verbindung
-\item sshfs -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3 nas:/ ~innay/nasfs
+\pause
+\item sshfs -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3 server:ordner1 ordner2
+\pause
 \item reconnect: verbindet sich nach einer Verbindungsunterbrechung wieder
+\pause
 \item ServerAliveInterval: Zeit bis ein Aufrechterhaltungspaket gesendet wird
+\pause
 \item ServerAliveCountMax: Zahl der verloren Pakete
 \end{itemize}
 \end{frame}

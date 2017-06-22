@@ -1,14 +1,20 @@
 \begin{frame}
 \frametitle{SSH Key-generation}
 \begin{itemize}
-\item ssh-keygen
-\item t: Typ
+\item \textbf{ssh-keygen} 
+\pause
+\item \textbf{ssh-keygen -t Typ} erstellt einen neuen Key vom angegebenen Typ
+\pause
+\item \textbf{ssh-keygen -l -E Typ -f Datei} berechnet den Hash-Wert der Key-Datei mit dem angegeben Algorithmus
+\pause
 \item E: Hash-Typ
-\item ssh-keygen
-  - l: Fingerprint
-  - f: Datei 
-
-
+\pause
+\item l: Fingerprint
+\pause
+\item f: Datei 
+\pause
 \item ssh-keyscan
+\pause
+\item ssh-copy-id
 \end{itemize}
 \end{frame}
