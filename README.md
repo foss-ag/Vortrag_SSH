@@ -8,5 +8,5 @@
 - remote Execution
 - Porttunnel
 - Serverconfig
-- SSH Key-generation
+- SSH Key
 
