@@ -1,16 +1,13 @@
 \begin{frame}
 \frametitle{Porttunnel}
 \begin{itemize}
-\item ssh -N -L \textbf{BindAdresse}:\textit{BindPort}:\textbf{ZielAdresse}:\textit{ZielPort} \textbf{jumpServer} 
+\item \texttt{ssh -N -L <BindAdresse>:\textit{<BindPort>}:<ZielAdresse>:\textit{<ZielPort>} <jumpServer> }
 
-auf dem lokalen Rechner wird der Port und die Adresse gebunden
+Auf dem lokalen Rechner wird der Port und die Adresse gebunden
 \pause
-\item ssh -N -R \textbf{BindAdresse}:\textit{BindPort}:\textbf{ZielAdresse}:\textit{ZielPort} \textbf{jumpServer}
-
- auf dem entfernten Rechner wird die Addresse und der Port gebunden
+\item \texttt{ssh -N -R <BindAdresse>:\textit{<BindPort>}:<ZielAdresse>:\textit{<ZielPort>} <jumpServer>}\\
+Auf dem entfernten Rechner wird die Addresse und der Port gebunden
 \pause
-\item ssh -N -D port server 	$\rightarrow$ SOCKS5 Proxy
-\pause
-\item ssh -N ohne ein Command auszuführen
+\item \texttt{ssh -N} Ohne ein Command auszuführen
 \end{itemize}
 \end{frame}

@@ -1,16 +1,16 @@
 \begin{frame}
 \frametitle{SSHFS}
 \begin{itemize}
-\item \textbf{sshfs server:ordner1 ordner2}
+\item \texttt{sshfs <server>:<ordner1> <ordner2>}
 \pause
-\item einbinden eines Ordners als Dateisystem mit ssh-Verbindung
+\item Einbinden eines Ordners als Dateisystem mit ssh-Verbindung
 \pause
-\item \textbf{sshfs -o reconnect,ServerAliveInterval=15, ServerAliveCountMax=3 server:ordner1 ordner2}
+\item \texttt{sshfs -o reconnect,ServerAliveInterval=15, ServerAliveCountMax=3 <server>:<ordner1> <ordner2>}
 \pause
-\item \textbf{reconnect:} verbindet sich nach einer Verbindungsunterbrechung wieder
+\item \texttt{reconnect:} Verbindet sich nach einer Verbindungsunterbrechung wieder
 \pause
-\item \textbf{ServerAliveInterval:} Zeit bis ein Aufrechterhaltungspaket gesendet wird
+\item \texttt{ServerAliveInterval:} Zeit bis ein Aufrechterhaltungspaket gesendet wird
 \pause
-\item \textbf{ServerAliveCountMax:} Zahl der verloren Pakete
+\item \texttt{ServerAliveCountMax:} Zahl der verloren Pakete
 \end{itemize}
 \end{frame}
