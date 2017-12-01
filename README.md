@@ -12,10 +12,10 @@
 
 # Quellen
 Bilder unter CC BY-SA 4.0 von Serypol
-- Folie 12: Local Tunnel 
-https://en.wikipedia.org/wiki/Tunneling\_protocol#/media/File:Ssh-L-Tunnel.png
-- Folie 14: Remote Tunnel
-https://en.wikipedia.org/wiki/Tunneling\_protocol#/media/File:SSH\_Tunnel\_(remote).png
+- Folie 12: Local Tunnel (ssh-L-tunnel.png)
+https://commons.wikimedia.org/wiki/Special:PermaLink/220793899?title=File:Ssh-L-Tunnel.png
+- Folie 14: Remote Tunnel (ssh-R-tunnel.png)
+https://commons.wikimedia.org/wiki/Special:PermaLink/250703247?title=File:SSH_Tunnel_(remote).png
 
 # Submodules
 gogs@git.foss-ag.de:FOSS_AG/Latex_Template.git
