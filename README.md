@@ -16,6 +16,3 @@ Bilder unter CC BY-SA 4.0 von Serypol
 https://commons.wikimedia.org/wiki/Special:PermaLink/220793899?title=File:Ssh-L-Tunnel.png
 - Folie 14: Remote Tunnel (ssh-R-tunnel.png)
 https://commons.wikimedia.org/wiki/Special:PermaLink/250703247?title=File:SSH_Tunnel_(remote).png
-
-# Submodules
-gogs@git.foss-ag.de:FOSS_AG/Latex_Template.git
